@@ -1,12 +1,15 @@
 import { Product, productsMock } from '@/app/mocks/produtos-mock';
 import { Button } from '@/components/ui/button';
-import { Params } from 'next/dist/server/request/params';
 import Image from 'next/image';
 type Props = {
-	params: { id: string };
+	params: Promise<{
+		category: string;
+		id: string;
+	}>;
 };
-export default function ProductIdPage({ params }: Props) {
-	const id = params.id;
+
+export default async function ProductIdPage({ params }: Props) {
+	const { category, id } = await params;
 	const product = productsMock[
 		id as keyof typeof productsMock
 	] as Product;
