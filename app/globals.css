@@ -1,27 +1,26 @@
 @import 'tailwindcss';
 
 :root {
-  --main-dark: 3 7 30;
-  --main-dark-red: 106 4 15;
-  --main-red: 157 2 8;
-  --main-light-red: 208 0 0;
-  --main-orange: 232 93 4;
-  --main-yellow: 255 186 8;
+  --main-dark: 220 80% 7%;
+  --main-dark-red: 350 92% 21%;
+  --main-red: 355 96% 32%;
+  --main-light-red: 0 100% 41%;
+  --main-orange: 25 95% 46%;
+  --main-yellow: 45 100% 52%;
   --background: #ffffff;
   --foreground: #171717;
-}
-@theme {
-  --color-main-dark: hsl(var(--main-dark));
-  --color-main-dark-red: hsl(var(--main-dark-red));
-  --color-main-light-red: hsl(var(--main-light-red));
-  --color-main-orange: hsl(var(--main-orange));
-  --color-main-yellow: hsl(var(--main-yellow));
 }
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-main-dark: hsl(var(--main-dark));
+  --color-main-dark-red: hsl(var(--main-dark-red));
+  --color-main-light-red: hsl(var(--main-light-red));
+  --color-main-orange: hsl(var(--main-orange));
+  --color-main-yellow: hsl(var(--main-yellow));
+  --color-main-red: hsl(var(--main-red));
 }
 
 @media (prefers-color-scheme: dark) {
