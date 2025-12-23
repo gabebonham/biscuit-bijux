@@ -1,8 +1,7 @@
 import { ProductType } from '@/types/product.type'
-import { UUID } from 'crypto'
 
 export class Category {
-  id: UUID
+  id: string
   name: string
   type: ProductType
   description: string

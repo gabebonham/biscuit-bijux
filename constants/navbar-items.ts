@@ -17,7 +17,7 @@ export const navbarItems = [
     name: 'Categorias',
     path: '/categorias',
     isButton: true,
-    hasSubs: false,
+    hasSubs: true,
     subItems: categories.map((category) => ({
       name: category.name,
       path: category.path,
