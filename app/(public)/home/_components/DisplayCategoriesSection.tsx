@@ -16,7 +16,7 @@ export default function DisplayCategoriesSection() {
       </div>
       <div className="grid grid-cols-2 gap-6">
         {categories.map((category) => (
-          <CategoryDisplayCard category={category} />
+          <CategoryDisplayCard key={category.id} category={category} />
         ))}
       </div>
       <div className="w-full flex items-center justify-center">

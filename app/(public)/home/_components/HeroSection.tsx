@@ -8,15 +8,15 @@ export default function HeroSection() {
     <h2 className="text-center font-bold text-3xl/12 ">
       Joias que contam{' '}
       <span className="bg-gradient-to-r from-main-red to-main-orange bg-clip-text text-transparent">
-        histórias de amor.
+        histórias de amor
       </span>
     </h2>
   )
   const heroDescription =
     'Descubra peças delicadas e encantadoras, feitas com carinho para mulheres que brilham de dentro para fora.'
   return (
-    <section className="bg-main-red/15 px-3 py-12">
-      <div className="flex flex-col gap-y-6">
+    <section className="bg-main-red/10 px-3 py-22">
+      <div className="flex flex-col gap-y-8">
         <div className="flex items-center justify-center">
           <div className="w-11/12">{heroHeading}</div>
         </div>

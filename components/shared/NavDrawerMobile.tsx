@@ -12,6 +12,7 @@ import {
 import { Button } from '../ui/button'
 import Link from 'next/link'
 import { Separator } from '../ui/separator'
+import { DialogTitle } from '@radix-ui/react-dialog'
 type Props = {
   icon?: React.ReactNode
   label?: string
@@ -29,14 +30,15 @@ export default function NavDrawerMobile({ icon, label, navbarItems }: Props) {
     <Drawer direction="left">
       <DrawerTrigger>{icon ? icon : label}</DrawerTrigger>
       <DrawerContent className="bg-main-dark-red">
+        <DialogTitle></DialogTitle>
         <DrawerHeader>
           <Separator />
-          <DrawerDescription>
-            <div className="flex flex-col text-xl text-white gap-y-2 py-2">
-              {items.map((item: any) => (
-                <Link href={item.path}>{item.name}</Link>
-              ))}
-            </div>
+          <DrawerDescription className="flex flex-col text-xl text-white gap-y-2 py-2">
+            {items.map((item: any) => (
+              <Link key={item.name} href={item.path}>
+                {item.name}
+              </Link>
+            ))}
           </DrawerDescription>
         </DrawerHeader>
         <DrawerFooter></DrawerFooter>

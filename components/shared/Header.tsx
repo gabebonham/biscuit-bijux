@@ -11,10 +11,10 @@ export default function Header() {
     </p>
   )
   return (
-    <header className="flex px-4 h-18 items-center justify-between w-full bg-main-dark-red text-white">
+    <header className="fixed z-90 flex px-4 h-18 items-center justify-between w-full bg-main-dark-red text-white">
       <div className="flex">
         <NavDrawerMobile
-          icon={<Menu className="size-6" />}
+          icon={<Menu className="size-6 cursor-pointer" />}
           navbarItems={navbarItems}
         />
       </div>
