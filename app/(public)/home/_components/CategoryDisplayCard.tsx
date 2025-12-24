@@ -11,7 +11,7 @@ export default function CategoryDisplayCard({
 }: {
   category: Category
 }) {
-  const { description, id, name, path, type, count, imgUrl } = category
+  const { description, id, name, path, type, imgUrl } = category
   return (
     <Link
       href={path}
@@ -29,7 +29,6 @@ export default function CategoryDisplayCard({
       <div className="relative z-10 flex flex-col items-start justify-around px-4 h-full text-white">
         <div></div>
         <div className="text-shadow-lg/50">
-          <p>{count} Peças</p>
           <p className="font-bold text-lg">{name}</p>
           <p className="flex items-center gap-x-2 group-hover:gap-x-3 transition-all duration-300">
             Ver coleção <ArrowRight className="size-4 " />

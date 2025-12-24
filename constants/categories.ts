@@ -3,7 +3,6 @@ import { Category } from '@/models/category.model'
 export const earrings: Category = {
   id: '1',
   name: 'Brincos',
-  count: 17,
   imgUrl:
     'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80',
   description:
@@ -14,7 +13,6 @@ export const earrings: Category = {
 export const necklaces: Category = {
   id: '2',
   name: 'Colares',
-  count: 5,
   imgUrl:
     'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80',
   description:
@@ -24,7 +22,6 @@ export const necklaces: Category = {
 }
 export const kits: Category = {
   id: '3',
-  count: 12,
   imgUrl:
     'https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&q=80',
   name: 'Kits',
@@ -33,4 +30,30 @@ export const kits: Category = {
   path: '/categorias/kits',
   type: 'kit',
 }
-export const categories: Category[] = [earrings, necklaces, kits]
+export const keyChains: Category = {
+  id: '4',
+  imgUrl:
+    'https://images.unsplash.com/photo-1687363714985-990685339050?q=80&w=387',
+  name: 'Chaveiros',
+  description:
+    'Nossos chaveiros unem funcionalidade e estilo em peças cheias de personalidade. Perfeitos para acompanhar chaves, bolsas ou mochilas, eles trazem charme aos detalhes do dia a dia e são uma ótima opção para presentear com criatividade.',
+  path: '/categorias/chaveiros',
+  type: 'keychain',
+}
+export const decoration: Category = {
+  id: '5',
+  imgUrl:
+    'https://images.unsplash.com/photo-1611920630905-426e08849c32?q=80&w=387',
+  name: 'Decorações',
+  description:
+    'Nossas peças de decoração foram pensadas para transformar ambientes com delicadeza e bom gosto. Cada detalhe adiciona charme e personalidade ao espaço, criando uma atmosfera acolhedora e cheia de estilo.',
+  path: '/categorias/decoracoes',
+  type: 'decoration',
+}
+export const categories: Category[] = [
+  earrings,
+  necklaces,
+  kits,
+  keyChains,
+  decoration,
+]

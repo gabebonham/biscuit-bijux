@@ -44,4 +44,10 @@ export const navbarItems = [
       },
     ],
   },
+  {
+    name: 'Além de Biscuit',
+    path: '/alem-de-biscuit',
+    isButton: true,
+    hasSubs: false,
+  },
 ]

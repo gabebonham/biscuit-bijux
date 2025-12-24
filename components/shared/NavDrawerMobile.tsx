@@ -29,11 +29,11 @@ export default function NavDrawerMobile({ icon, label, navbarItems }: Props) {
   return (
     <Drawer direction="left">
       <DrawerTrigger>{icon ? icon : label}</DrawerTrigger>
-      <DrawerContent className="bg-main-dark-red">
+      <DrawerContent className="bg-main-dark-red z-90">
         <DialogTitle></DialogTitle>
         <DrawerHeader>
           <Separator />
-          <DrawerDescription className="flex flex-col text-xl text-white gap-y-2 py-2">
+          <DrawerDescription className="flex flex-col text-xl text-white gap-y-2 py-4">
             {items.map((item: any) => (
               <Link key={item.name} href={item.path}>
                 {item.name}

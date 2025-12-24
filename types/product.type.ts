@@ -1,1 +1,6 @@
-export type ProductType = 'earring' | 'necklace' | 'kit'
+export type ProductType =
+  | 'earring'
+  | 'necklace'
+  | 'kit'
+  | 'keychain'
+  | 'decoration'

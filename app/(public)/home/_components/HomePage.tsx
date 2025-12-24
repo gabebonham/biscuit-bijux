@@ -5,7 +5,7 @@ import HeroSection from './HeroSection'
 
 export default function HomePage() {
   return (
-    <div className="">
+    <div className="py-18">
       <HeroSection />
       <DisplayCategoriesSection />
     </div>
