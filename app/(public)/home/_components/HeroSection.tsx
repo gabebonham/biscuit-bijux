@@ -5,7 +5,7 @@ import { ArrowRight, Sparkles } from 'lucide-react'
 
 export default function HeroSection() {
   const heroHeading = (
-    <h2 className="text-center font-bold text-4xl/12 ">
+    <h2 className="text-center font-bold text-3xl/12 ">
       Joias que contam{' '}
       <span className="bg-gradient-to-r from-main-red to-main-orange bg-clip-text text-transparent">
         histórias de amor.
