@@ -3,6 +3,7 @@
 import DisplayCategoriesSection from './DisplayCategoriesSection'
 import HeroSection from './HeroSection'
 import QualitiesSection from './QualitiesSection'
+import SendEmailSection from './SendEmailSection'
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <HeroSection />
       <DisplayCategoriesSection />
       <QualitiesSection />
+      <SendEmailSection />
     </div>
   )
 }
