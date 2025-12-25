@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react'
 
 export default function DisplayCategoriesSection() {
   return (
-    <section className="flex flex-col gap-y-8 px-4 bg-main-light-red/5 py-14">
+    <section className="flex flex-col gap-y-8 px-4 bg-main-dark-red/10 py-14">
       <div className="flex flex-col gap-y-2">
         <h1 className="font-bold text-2xl">Explore nossas categorias</h1>
         <p className="font-sans text-gray-500">
