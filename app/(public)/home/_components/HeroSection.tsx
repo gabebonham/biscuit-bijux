@@ -15,7 +15,7 @@ export default function HeroSection() {
   const heroDescription =
     'Descubra peças delicadas e encantadoras, feitas com carinho para mulheres que brilham de dentro para fora.'
   return (
-    <section className="bg-main-red/10 px-3 py-22">
+    <section className="bg-main-red/15 px-3 py-22 pt-48">
       <div className="flex flex-col gap-y-8">
         <div className="flex items-center justify-center">
           <div className="w-11/12">{heroHeading}</div>
@@ -27,10 +27,10 @@ export default function HeroSection() {
         </div>
         <div>
           <div className="flex flex-col gap-y-4 font-sans">
-            <Button className="flex rounded-lg text-lg font-semibold w-full h-14 items-center gap-x-4 bg-main-dark-red border-2 border-main-dark-red">
+            <Button className="cursor-pointer flex rounded-lg hover:bg-transparent hover:text-main-dark-red text-lg font-semibold w-full h-14 items-center gap-x-4 bg-main-dark-red border-2 border-main-dark-red">
               Ver Coleção <ArrowRight />
             </Button>
-            <Button className="flex rounded-lg text-lg font-semibold w-full h-14 items-center  text-main-dark-red gap-x-4 bg-transparent border-2 border-main-dark-red">
+            <Button className="cursor-pointer hover:bg-main-dark-red hover:text-white flex rounded-lg text-lg font-semibold w-full h-14 items-center  text-main-dark-red gap-x-4 bg-transparent border-2 border-main-dark-red">
               Novidades <Sparkles />
             </Button>
           </div>

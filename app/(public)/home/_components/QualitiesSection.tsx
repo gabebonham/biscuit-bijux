@@ -4,7 +4,7 @@ import { Gem, Heart, Sparkle, Sparkles } from 'lucide-react'
 
 export default function QualitiesSection() {
   return (
-    <section className="px-4 py-20">
+    <section className="px-4 py-20 ">
       <div className="flex flex-col gap-y-8 justify-center items-center text-center">
         <div className="flex flex-col gap-y-3 justify-center items-center">
           <Sparkles className="size-8 fill-main-yellow" />

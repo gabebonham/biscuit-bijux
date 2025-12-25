@@ -7,7 +7,7 @@ import { Heart } from 'lucide-react'
 
 export default function SendEmailSection() {
   return (
-    <section className="bg-main-red/10 px-3 py-12">
+    <section className="bg-main-red/15 px-3 py-12">
       <div className="flex flex-col items-center justify-center text-center gap-y-4">
         <Heart className="size-10 text-main-red" />
         <h1 className="font-bold text-xl">Quer fazer um pedido especial?</h1>
@@ -17,7 +17,7 @@ export default function SendEmailSection() {
         </p>
         <div className="flex flex-col items-center gap-y-4 w-full">
           <Input
-            className="bg-white font-sans border-black/50"
+            className="bg-white font-sans border-black/50 h-11"
             placeholder="Seu melhor email..."
           />
           <Textarea
