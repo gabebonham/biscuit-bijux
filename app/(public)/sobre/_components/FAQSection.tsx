@@ -36,7 +36,7 @@ export default function FAQSection() {
     },
   ]
   return (
-    <section className="flex flex-col gap-y-8">
+    <section className="flex flex-col gap-y-12 px-5 py-12">
       <div>
         <h1 className="text-2xl font-bold text-center">Perguntas Frequentes</h1>
       </div>

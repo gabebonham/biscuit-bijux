@@ -23,7 +23,7 @@ export default function ContactSection() {
     },
   ]
   return (
-    <section className="grid grid-cols-1 gap-y-8 py-16">
+    <section className="grid grid-cols-1 gap-y-14 py-16 px-4 bg-main-red/5">
       <h1 className="text-2xl text-center font-bold">Entre em Contato</h1>
       {contacts.map((contact) => (
         <Card className="w-full flex flex-col justify-center items-center gap-y-3 rounded-sm border-main-red/50">

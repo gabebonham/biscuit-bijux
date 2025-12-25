@@ -23,7 +23,7 @@ export default function GeralAccordeon({ accordeonList }: Props) {
     >
       {accordeonList.map((item) => (
         <AccordionItem value={`item-${item.id.toString()}`}>
-          <AccordionTrigger className="cursor-pointer hover:text-main-pink">
+          <AccordionTrigger className="cursor-pointer hover:text-main-pink text-lg">
             {item.question}
           </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-4 text-balance font-sans text-gray-600">

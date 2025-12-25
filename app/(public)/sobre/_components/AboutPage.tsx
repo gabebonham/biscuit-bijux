@@ -6,7 +6,7 @@ import FAQSection from './FAQSection'
 
 export default function AboutPage() {
   return (
-    <div className="pt-42 px-4">
+    <div className="pt-12 ">
       <AboutSection />
       <FAQSection />
       <ContactSection />
