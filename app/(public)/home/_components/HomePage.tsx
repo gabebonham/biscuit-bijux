@@ -7,7 +7,7 @@ import SendEmailSection from './SendEmailSection'
 
 export default function HomePage() {
   return (
-    <div className="py-18">
+    <div className="">
       <HeroSection />
       <DisplayCategoriesSection />
       <QualitiesSection />

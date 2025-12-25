@@ -1,5 +1,5 @@
 export const generalInfo = {
-  email: process.env.EMAIL,
+  email: process.env.NEXT_PUBLIC_EMAIL!,
   aboutText: `
     A Biscuit Bijux nasceu do amor pelos detalhes, pelas cores e pela ideia de que cada acessório pode contar uma história. Somos uma loja apaixonada por bijuterias que valorizam a beleza, a criatividade e a autenticidade de cada pessoa.
 
